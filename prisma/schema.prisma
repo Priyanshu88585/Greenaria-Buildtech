@@ -1,0 +1,151 @@
+// Prisma schema placeholder
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum PropertyCategory {
+  RESIDENTIAL
+  COMMERCIAL
+  PLOT
+}
+
+enum LeadType {
+  ENQUIRY
+  VISIT
+  CONTACT
+}
+
+enum LeadStatus {
+  NEW
+  CONTACTED
+  QUALIFIED
+  CLOSED
+}
+
+model User {
+  id       String @id @default(uuid())
+  name     String
+  email    String @unique
+  password String
+  role     String @default("ADMIN")
+
+  createdAt DateTime @default(now())
+
+  properties Property[]
+  blogs      Blog[]
+}
+
+model Builder {
+  id          String  @id @default(uuid())
+  name        String
+  slug        String  @unique
+  description String?
+  logo        String?
+
+  properties Property[]
+
+  createdAt DateTime @default(now())
+
+  @@index([slug])
+}
+
+model Amenity {
+  id   String  @id @default(uuid())
+  name String  @unique
+  icon String?
+
+  properties Property[]
+
+  createdAt DateTime @default(now())
+}
+
+model Property {
+  id String @id @default(uuid())
+
+  title String
+  slug  String @unique
+
+  description String
+
+  location String
+  city     String
+  state    String
+
+  propertyType String
+  category     PropertyCategory
+
+  price Float
+  area  Float?
+
+  bedrooms  Int?
+  bathrooms Int?
+
+  images     String[]
+  floorPlans String[]
+
+  latitude  Float?
+  longitude Float?
+
+  builderId String
+  builder   Builder @relation(fields: [builderId], references: [id])
+
+  // ✅ FIXED RELATION
+  userId String?
+  user   User?   @relation(fields: [userId], references: [id])
+
+  amenities Amenity[]
+
+  leads Lead[]
+
+  createdAt DateTime @default(now())
+
+  @@index([slug])
+  @@index([city])
+  @@index([category])
+  @@index([propertyType])
+}
+
+model Blog {
+  id String @id @default(uuid())
+
+  title   String
+  slug    String @unique
+  content String
+
+  featuredImage String?
+
+  authorId String
+  author   User   @relation(fields: [authorId], references: [id])
+
+  tags String[]
+
+  createdAt DateTime @default(now())
+
+  @@index([slug])
+}
+
+model Lead {
+  id String @id @default(uuid())
+
+  name  String
+  email String
+  phone String
+
+  message String?
+
+  propertyId String?
+  property   Property? @relation(fields: [propertyId], references: [id])
+
+  type   LeadType
+  status LeadStatus @default(NEW)
+
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}
