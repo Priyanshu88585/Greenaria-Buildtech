@@ -1,30 +1,30 @@
-import { NextResponse } from "next/server"
-import { successResponse, errorResponse } from "@/lib/api"
+// import { NextResponse } from "next/server"
+// import { successResponse, errorResponse } from "@/lib/api"
 
-export async function POST() {
+// export async function POST() {
 
-  try {
+//   try {
 
-    const response = successResponse({}, "Logged out successfully")
+//     const response = successResponse({}, "Logged out successfully")
 
-    // Remove auth cookie
+//     // Remove auth cookie
 
-    response.cookies.set({
-      name: "auth_token",
-      value: "",
-      httpOnly: true,
-      path: "/",
-      expires: new Date(0)
-    })
+//     response.cookies.set({
+//       name: "auth_token",
+//       value: "",
+//       httpOnly: true,
+//       path: "/",
+//       expires: new Date(0)
+//     })
 
-    return response
+//     return response
 
-  } catch (error) {
+//   } catch (error) {
 
-    console.error("Logout error:", error)
+//     console.error("Logout error:", error)
 
-    return errorResponse("Logout failed", 500)
+//     return errorResponse("Logout failed", 500)
 
-  }
+//   }
 
-}
+// }
