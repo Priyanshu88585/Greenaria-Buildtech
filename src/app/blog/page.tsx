@@ -16,7 +16,9 @@ export const metadata: Metadata = {
 export const revalidate = 3600;
 
 export default async function BlogPage() {
-  const blogs = await getBlogs();
+
+  // ✅ FIXED
+  const blogList = blogs;
 
   return (
     <Container className="py-20">
@@ -28,12 +30,12 @@ export default async function BlogPage() {
         </p>
       </header>
 
-      {blogs.length === 0 && (
+      {blogList.length === 0 && (
         <div className="text-gray-500">No blog posts available.</div>
       )}
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {blogs.map((blog) => (
+        {blogList.map((blog) => (
           <Link
             key={blog.id}
             href={`/blog/${blog.slug}`}
