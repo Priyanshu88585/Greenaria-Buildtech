@@ -1,0 +1,647 @@
+/* =========================================================
+   Greenaria Buildtech UI
+   PART 5 — FINAL UI POLISH
+   src/styles/style.css
+========================================================= */
+
+
+/* =========================================================
+   PROPERTY FILTER BAR
+   components/filters/*
+========================================================= */
+
+.property-filter-bar{
+
+  background:#ffffff;
+
+  padding:24px;
+
+  border-radius:12px;
+
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+  display:grid;
+
+  grid-template-columns:repeat(4,1fr);
+
+  gap:14px;
+
+  margin-bottom:40px;
+
+}
+
+.property-filter-bar select,
+.property-filter-bar input{
+
+  height:46px;
+
+  border:1px solid #ddd;
+
+  border-radius:8px;
+
+  padding:0 14px;
+
+  font-size:14px;
+
+}
+
+.property-filter-bar select:focus,
+.property-filter-bar input:focus{
+
+  border-color:#1f4e79;
+
+  outline:none;
+
+}
+
+.property-filter-bar button{
+
+  height:46px;
+
+  background:#1f4e79;
+
+  color:white;
+
+  border:none;
+
+  border-radius:8px;
+
+  font-weight:500;
+
+  cursor:pointer;
+
+}
+
+.property-filter-bar button:hover{
+
+  background:#173c5f;
+
+}
+
+
+
+/* =========================================================
+   PROPERTY GRID PAGE
+   app/properties/page.tsx
+========================================================= */
+
+.properties-page{
+
+  padding:80px 0;
+
+}
+
+.properties-grid{
+
+  display:grid;
+
+  grid-template-columns:repeat(3,1fr);
+
+  gap:30px;
+
+}
+
+
+
+/* =========================================================
+   PROPERTY CARD PREMIUM
+   components/property/PropertyCard.tsx
+========================================================= */
+
+.property-card{
+
+  background:#fff;
+
+  border-radius:14px;
+
+  overflow:hidden;
+
+  transition:.35s ease;
+
+  box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+  display:flex;
+
+  flex-direction:column;
+
+}
+
+.property-card:hover{
+
+  transform:translateY(-6px);
+
+  box-shadow:0 16px 40px rgba(0,0,0,.18);
+
+}
+
+.property-card__image{
+
+  position:relative;
+
+  height:220px;
+
+  overflow:hidden;
+
+}
+
+.property-card__image img{
+
+  width:100%;
+
+  height:100%;
+
+  object-fit:cover;
+
+  transition:.4s ease;
+
+}
+
+.property-card:hover .property-card__image img{
+
+  transform:scale(1.08);
+
+}
+
+
+
+/* PROPERTY BADGE */
+
+.property-badge{
+
+  position:absolute;
+
+  top:14px;
+
+  left:14px;
+
+  background:#c8a97e;
+
+  color:white;
+
+  font-size:12px;
+
+  padding:6px 10px;
+
+  border-radius:4px;
+
+}
+
+
+
+/* PROPERTY CONTENT */
+
+.property-card__body{
+
+  padding:20px;
+
+}
+
+.property-card__title{
+
+  font-size:18px;
+
+  margin-bottom:6px;
+
+}
+
+.property-card__location{
+
+  font-size:13px;
+
+  color:#777;
+
+  margin-bottom:10px;
+
+}
+
+.property-card__price{
+
+  font-size:20px;
+
+  font-weight:600;
+
+  color:#1f4e79;
+
+  margin-bottom:12px;
+
+}
+
+
+
+/* PROPERTY META */
+
+.property-meta{
+
+  display:flex;
+
+  justify-content:space-between;
+
+  font-size:13px;
+
+  color:#777;
+
+  border-top:1px solid #eee;
+
+  padding-top:12px;
+
+}
+
+
+
+/* =========================================================
+   PROPERTY DETAILS PAGE
+   app/properties/[slug]
+========================================================= */
+
+.property-details{
+
+  padding:80px 0;
+
+}
+
+.property-details-grid{
+
+  display:grid;
+
+  grid-template-columns:2fr 1fr;
+
+  gap:40px;
+
+}
+
+
+
+/* =========================================================
+   PROPERTY GALLERY
+   components/property/PropertyGallery.tsx
+========================================================= */
+
+.property-gallery{
+
+  display:grid;
+
+  grid-template-columns:repeat(4,1fr);
+
+  gap:12px;
+
+}
+
+.property-gallery img{
+
+  width:100%;
+
+  height:140px;
+
+  object-fit:cover;
+
+  border-radius:8px;
+
+  transition:.3s ease;
+
+}
+
+.property-gallery img:hover{
+
+  transform:scale(1.05);
+
+}
+
+
+
+/* =========================================================
+   PROPERTY AMENITIES
+   components/property/PropertyAmenities.tsx
+========================================================= */
+
+.property-amenities{
+
+  margin-top:30px;
+
+}
+
+.amenities-grid{
+
+  display:grid;
+
+  grid-template-columns:repeat(3,1fr);
+
+  gap:16px;
+
+}
+
+.amenity-item{
+
+  background:#f5f7fa;
+
+  padding:12px;
+
+  border-radius:6px;
+
+  font-size:14px;
+
+}
+
+
+
+/* =========================================================
+   PROPERTY LOCATION
+   components/property/PropertyLocation.tsx
+========================================================= */
+
+.property-location-map{
+
+  width:100%;
+
+  height:320px;
+
+  border-radius:12px;
+
+  overflow:hidden;
+
+  margin-top:20px;
+
+}
+
+
+
+/* =========================================================
+   BLOG SECTION
+   app/blog/page.tsx
+========================================================= */
+
+.blog-page{
+
+  padding:80px 0;
+
+}
+
+.blog-grid{
+
+  display:grid;
+
+  grid-template-columns:repeat(3,1fr);
+
+  gap:30px;
+
+}
+
+
+
+/* BLOG CARD */
+
+.blog-card{
+
+  background:white;
+
+  border-radius:12px;
+
+  overflow:hidden;
+
+  box-shadow:0 6px 20px rgba(0,0,0,.08);
+
+  transition:.3s ease;
+
+}
+
+.blog-card:hover{
+
+  transform:translateY(-6px);
+
+  box-shadow:0 18px 45px rgba(0,0,0,.18);
+
+}
+
+.blog-card__image{
+
+  height:200px;
+
+  overflow:hidden;
+
+}
+
+.blog-card__image img{
+
+  width:100%;
+
+  height:100%;
+
+  object-fit:cover;
+
+}
+
+.blog-card__content{
+
+  padding:20px;
+
+}
+
+.blog-card__title{
+
+  font-size:18px;
+
+  margin-bottom:8px;
+
+}
+
+.blog-card__meta{
+
+  font-size:13px;
+
+  color:#999;
+
+  margin-bottom:10px;
+
+}
+
+
+
+/* =========================================================
+   CONTACT PAGE
+   app/contact/page.tsx
+========================================================= */
+
+.contact-section{
+
+  padding:80px 0;
+
+}
+
+.contact-grid{
+
+  display:grid;
+
+  grid-template-columns:1fr 1fr;
+
+  gap:40px;
+
+}
+
+
+
+/* CONTACT FORM */
+
+.contact-form{
+
+  background:white;
+
+  padding:30px;
+
+  border-radius:12px;
+
+  box-shadow:0 6px 20px rgba(0,0,0,.08);
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+  width:100%;
+
+  padding:12px;
+
+  border:1px solid #ddd;
+
+  border-radius:6px;
+
+  margin-bottom:14px;
+
+}
+
+.contact-form textarea{
+
+  min-height:120px;
+
+}
+
+.contact-form button{
+
+  width:100%;
+
+  height:44px;
+
+  background:#1f4e79;
+
+  color:white;
+
+  border:none;
+
+  border-radius:6px;
+
+}
+
+.contact-form button:hover{
+
+  background:#173c5f;
+
+}
+
+
+
+/* =========================================================
+   DASHBOARD UI
+   app/dashboard/*
+========================================================= */
+
+.dashboard{
+
+  padding:60px;
+
+}
+
+.dashboard-grid{
+
+  display:grid;
+
+  grid-template-columns:repeat(3,1fr);
+
+  gap:24px;
+
+}
+
+.dashboard-card{
+
+  background:white;
+
+  padding:24px;
+
+  border-radius:10px;
+
+  box-shadow:0 6px 20px rgba(0,0,0,.08);
+
+}
+
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width:1200px){
+
+.properties-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.blog-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+
+@media(max-width:768px){
+
+.properties-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.blog-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.contact-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.property-details-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.property-filter-bar{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+
+
+@media(max-width:480px){
+
+.property-card__image{
+
+height:180px;
+
+}
+
+.hero-title{
+
+font-size:28px;
+
+}
+
+}
