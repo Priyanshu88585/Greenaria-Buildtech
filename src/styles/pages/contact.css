@@ -1,0 +1,39 @@
+/* Contact Page */
+
+.contact-page{
+  padding:60px 0;
+}
+
+.contact-grid{
+  max-width:600px;
+  margin:auto;
+}
+
+.contact-form{
+  background:#fff;
+  padding:30px;
+  border-radius:8px;
+  box-shadow:0 4px 16px rgba(0,0,0,0.08);
+}
+
+.contact-form input,
+.contact-form textarea{
+  width:100%;
+  padding:12px;
+  border:1px solid #ddd;
+  border-radius:6px;
+  margin-bottom:12px;
+}
+
+.contact-form button{
+  background:#d4a017;
+  color:#fff;
+  border:none;
+  padding:12px 20px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.contact-form button:hover{
+  background:#b89114;
+}

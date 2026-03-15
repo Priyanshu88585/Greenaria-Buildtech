@@ -1,0 +1,111 @@
+[
+  {
+    "id": "oasis-grandstand",
+    "title": "Oasis Grandstand",
+    "location": "Yamuna Expressway",
+    "type": "Apartment",
+    "price": "7100000",
+    "image": "/images/projects/oasis-grandstand.jpg",
+    "description": "Premium apartments near Yamuna Expressway.",
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Club House"
+    ],
+    "gallery": [
+      "/images/projects/oasis-grandstand.jpg",
+      "/images/projects/oasis2.jpg"
+    ],
+    "lat": 28.4744,
+    "lng": 77.504
+  },
+  {
+    "id": "eldeco-7-peaks",
+    "title": "Eldeco 7 Peaks",
+    "location": "Greater Noida",
+    "type": "Apartment",
+    "price": "20000000",
+    "image": "/images/projects/eldeco-7-peaks.jpg",
+    "description": "Luxury towers.",
+    "amenities": [
+      "Clubhouse",
+      "Garden"
+    ],
+    "gallery": [
+      "/images/projects/eldeco.jpg"
+    ],
+    "lat": 28.474,
+    "lng": 77.5
+  },
+  {
+    "id": "oasis-grandstand",
+    "title": "Oasis Grandstand",
+    "location": "Yamuna Expressway",
+    "type": "apartment",
+    "price": "71 Lakh Onwards",
+    "image": "/images/projects/oasis.jpg",
+    "description": "Premium residential apartments near Yamuna Expressway.",
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Club House",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": "eldeco-7-peaks",
+    "title": "Eldeco 7 Peaks",
+    "location": "Greater Noida",
+    "type": "apartment",
+    "price": "2 Cr Onwards",
+    "image": "/images/projects/eldeco.jpg",
+    "description": "Luxury residential project in Greater Noida.",
+    "amenities": [
+      "Clubhouse",
+      "Garden",
+      "Parking",
+      "Security"
+    ]
+  },
+ {
+  "id": "oasis-grandstand",
+  "title": "Oasis Grandstand",
+  "location": "Yamuna Expressway",
+  "type": "Apartment",
+  "price": "71 Lakh Onwards",
+  "image": "/images/projects/oasis-grandstand.jpg",
+  "description": "Premium apartments located near Yamuna Expressway with world-class amenities.",
+  "amenities": [
+   "Swimming Pool",
+   "Gym",
+   "Club House",
+   "24x7 Security",
+   "Parking"
+  ],
+  "gallery": [
+   "/images/projects/oasis1.jpg",
+   "/images/projects/oasis2.jpg",
+   "/images/projects/oasis3.jpg"
+  ]
+ },
+
+ {
+  "id": "eldeco-7-peaks",
+  "title": "Eldeco 7 Peaks",
+  "location": "Greater Noida",
+  "type": "Apartment",
+  "price": "2 Cr Onwards",
+  "image": "/images/projects/eldeco.jpg",
+  "description": "Luxury residential towers with modern amenities.",
+  "amenities": [
+   "Clubhouse",
+   "Garden",
+   "Security",
+   "Parking"
+  ],
+  "gallery": [
+   "/images/projects/eldeco1.jpg",
+   "/images/projects/eldeco2.jpg"
+  ]
+ }
+]

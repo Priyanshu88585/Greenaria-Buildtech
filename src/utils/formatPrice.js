@@ -1,0 +1,1 @@
+export default function formatPrice(p){ if(!p) return ''; return '₹ '+parseInt(p).toLocaleString('en-IN') }

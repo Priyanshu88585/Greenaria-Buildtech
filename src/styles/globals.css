@@ -1,0 +1,141 @@
+/* globals.css — imports all component CSS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+@import "./layout/header.css";
+@import "./layout/navbar.css";
+@import "./layout/footer.css";
+
+@import "./home/hero.css";
+@import "./home/search.css";
+@import "./home/featured-projects.css";
+@import "./home/latest-projects.css";
+@import "./home/property-types.css";
+@import "./home/locations.css";
+@import "./home/partners.css";
+@import "./home/testimonials.css";
+
+@import "./property/property-card.css";
+@import "./property/property-grid.css";
+@import "./property/property-details.css";
+@import "./property/property-gallery.css";
+@import "./property/property-sidebar.css";
+
+@import "./filters/filters.css";
+@import "./forms/forms.css";
+
+@import "./blog/blog.css";
+
+@import "./pages/about.css";
+@import "./pages/projects.css";
+@import "./pages/contact.css";
+@import "./pages/services.css";
+@import "./pages/lease.css";
+@import "./pages/sell-property.css";
+@import "./pages/media.css";
+@import "./pages/videos.css";
+
+@import "./utilities.css";
+
+/* Root variables */
+:root {
+  --brand-dark: #0b2545;
+  /* primary deep blue */
+  --brand-accent: #b8860b;
+  /* golden accent */
+  --muted: #6b6b6b;
+  --bg: #ffffff;
+  --card-bg: #f7f8fa;
+  --container-max: 1200px;
+  --radius: 10px;
+  --gap: 18px;
+}
+
+/* Base reset & layout */
+* {
+  box-sizing: border-box
+}
+
+html,
+body,
+#__next {
+  height: 100%
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  -webkit-font-smoothing: antialiased;
+  color: #111;
+  background: var(--bg);
+  line-height: 1.45;
+  font-size: 16px;
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Utility classes */
+.hidden {
+  display: none
+}
+
+.text-muted {
+  color: var(--muted)
+}
+
+.section {
+  padding: 48px 0
+}
+
+.section-title {
+  font-size: 22px;
+  color: var(--brand-dark);
+  margin: 0 0 18px
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--brand-accent);
+  color: #fff;
+  border: none
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid rgba(11, 37, 69, 0.08);
+  color: var(--brand-dark)
+}
+
+.link {
+  color: var(--brand-dark);
+  text-decoration: none;
+}
+
+/* Responsive helpers */
+.row {
+  display: flex;
+  gap: var(--gap);
+  flex-wrap: wrap
+}
+
+.col {
+  flex: 1
+}
+
+@media (max-width: 980px) {
+  .container {
+    padding: 0 14px
+  }
+}
