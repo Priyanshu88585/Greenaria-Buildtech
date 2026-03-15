@@ -1,5 +1,0 @@
-/* testimonials.css */
-.testimonial-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
-.testimonial-card{background:var(--card-bg);padding:18px;border-radius:10px}
-.testimonial-card p{margin:0 0 10px}
-.testimonial-card h4{margin:0;color:var(--brand-dark)}
