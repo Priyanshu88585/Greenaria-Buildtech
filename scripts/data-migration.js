@@ -1,0 +1,1 @@
+const fs=require('fs'); const path=require('path'); const old= require('../src/data/properties.json'); const out= old.map(i=>({id:i.id,title:i.title,location:i.location,price:i.price})); fs.writeFileSync(path.join(__dirname,'../src/data/properties-migrated.json'),JSON.stringify(out,null,2)); console.log('done')
