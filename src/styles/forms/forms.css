@@ -1,0 +1,12 @@
+/* forms.css */
+.contact-form, .inquiry-form, .sell-property-form{
+  background:#fff;padding:20px;border-radius:10px;box-shadow:0 8px 24px rgba(14,30,60,0.04)
+}
+.contact-form input, .contact-form textarea,
+.inquiry-form input, .sell-property-form input, .sell-property-form textarea,
+.inquiry-form textarea{
+  width:100%;padding:10px;border-radius:6px;border:1px solid rgba(11,37,69,0.06);margin-bottom:10px
+}
+.contact-form button, .inquiry-form button, .sell-property-form button{
+  background:var(--brand-accent);color:#fff;border:none;padding:12px 16px;border-radius:8px;cursor:pointer
+}

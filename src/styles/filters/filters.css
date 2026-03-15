@@ -1,0 +1,7 @@
+/* filters.css */
+.filters-wrapper{display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap;padding:12px 0}
+.filter-item{background:#fff;padding:10px;border-radius:8px;border:1px solid rgba(11,37,69,0.04)}
+.filter-item label{display:block;font-weight:600;margin-bottom:6px}
+.price-inputs{display:flex;gap:8px}
+.price-inputs input{width:120px;padding:8px;border-radius:6px;border:1px solid rgba(11,37,69,0.06)}
+@media(max-width:768px){ .filters-wrapper{flex-direction:column;align-items:stretch} }

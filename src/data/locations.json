@@ -1,0 +1,22 @@
+[
+ {
+  "name": "Noida",
+  "slug": "noida",
+  "image": "/images/locations/noida.jpg"
+ },
+ {
+  "name": "Greater Noida",
+  "slug": "greater-noida",
+  "image": "/images/locations/greater-noida.jpg"
+ },
+ {
+  "name": "Yamuna Expressway",
+  "slug": "yamuna-expressway",
+  "image": "/images/locations/yamuna.jpg"
+ },
+ {
+  "name": "Gurugram",
+  "slug": "gurugram",
+  "image": "/images/locations/gurugram.jpg"
+ }
+]
