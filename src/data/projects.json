@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "slug": "oasis-grandstand",
+    "name": "Oasis Grandstand",
+    "developer": "Oasis Builders",
+    "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80",
+    "location": "Sector 22D, Yamuna Expressway",
+    "price": "₹ 1.2 Cr+",
+    "bhk": ["3 BHK", "4 BHK"],
+    "status": "Launching Soon",
+    "type": "latest"
+  },
+  {
+    "id": 2,
+    "slug": "eldeco-edge",
+    "name": "Eldeco Edge",
+    "developer": "Eldeco Group",
+    "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&q=80",
+    "location": "Sector 12, Greater Noida",
+    "price": "₹ 85 Lac+",
+    "bhk": ["2 BHK", "3 BHK"],
+    "status": "Under Construction",
+    "type": "latest"
+  },
+  {
+    "id": 3,
+    "slug": "eldeco-7-peaks",
+    "name": "Eldeco 7 Peaks",
+    "developer": "Eldeco Group",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&q=80",
+    "location": "Sector 12, Greater Noida",
+    "price": "₹ 95 Lac+",
+    "bhk": ["3 BHK", "4 BHK"],
+    "status": "New Launch",
+    "type": "upcoming"
+  },
+  {
+    "id": 4,
+    "slug": "godrej-tropical-isle",
+    "name": "Godrej Tropical Isle",
+    "developer": "Godrej Properties",
+    "image": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=600&q=80",
+    "location": "Sector 146, Noida",
+    "price": "₹ 1.8 Cr+",
+    "bhk": ["3 BHK", "4 BHK"],
+    "status": "Under Construction",
+    "type": "exclusive"
+  }
+]
