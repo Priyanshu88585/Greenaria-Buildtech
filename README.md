@@ -316,7 +316,7 @@ Logo goes in `/public/logos/company/logo.png`.
 
 ## 🔧 Customization
 
-1. **Phone/email** — Search `7400230074` & `greenariabuildtech.com`, replace globally
+1. **Phone/email** — Search `+91 8218035989` & `greenariabuildtech.com`, replace globally
 2. **Properties** — Edit `src/data/properties.json`
 3. **Blog posts** — Edit `src/data/blog.json`
 4. **Partners** — Edit `src/data/partners.json`
