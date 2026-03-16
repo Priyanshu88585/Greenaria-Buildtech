@@ -1,1 +1,0 @@
-export function generateSEO({title,description,image,url}){ return { title: title||'Greenaria Buildtech', description: description||'Real estate consultant', openGraph:{title,description,images:[image],url}, twitter:{card:'summary_large_image',title,description,images:[image]} } }

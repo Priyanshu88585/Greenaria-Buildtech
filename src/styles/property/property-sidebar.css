@@ -1,7 +1,0 @@
-/* property-sidebar.css */
-.property-sidebar{background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 20px rgba(14,30,60,0.06)}
-.property-sidebar h3{margin:0 0 12px}
-.property-sidebar form input, .property-sidebar form textarea{
-  width:100%;padding:10px;border:1px solid rgba(11,37,69,0.06);border-radius:6px;margin-bottom:10px
-}
-.property-sidebar form button{width:100%;padding:12px;border-radius:8px;background:var(--brand-accent);color:#fff;border:none}
