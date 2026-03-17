@@ -309,20 +309,6 @@ greenaria-buildtech/
 - **react-intersection-observer** — Scroll triggers
 - **tailwindcss** — Utility CSS
 
-## 🖼️ Images
-
-Replace placeholder images in `/public/images/` with actual property images.
-Logo goes in `/public/logos/company/logo.png`.
-
-## 🔧 Customization
-
-1. **Phone/email** — Search `8218035989`
-2. **Properties** — Edit `src/data/properties.json`
-3. **Blog posts** — Edit `src/data/blog.json`
-4. **Partners** — Edit `src/data/partners.json`
-5. **Logo** — Replace inline SVG in `Navbar.jsx` with `<Image>` tag
-
-## 🏗️ Production Build
 
 ```bash
 npm run build
