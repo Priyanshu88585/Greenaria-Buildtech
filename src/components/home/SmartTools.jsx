@@ -15,7 +15,7 @@ export default function SmartTools() {
     <section id="smart-tools" className="section-pad" style={{ background:"#fff" }}>
       <div className="max-content">
         <motion.div initial={{ opacity:0,y:30 }} whileInView={{ opacity:1,y:0 }} viewport={{ once:true }} className="text-center mb-[52px]">
-          <h2 className="section-title" style={{ fontSize:"clamp(1.2rem,2.5vw,1.85rem)", lineHeight:1.2 }}>Smart Tools for Property<br/>Buyers in Gurgaon</h2>
+          <h2 className="section-title" style={{ fontSize:"clamp(1.2rem,2.5vw,1.85rem)", lineHeight:1.2 }}>Smart Tools for Property<br/>Buyers in Noida</h2>
           <div className="gold-divider" />
           <p style={{ color:"#6b7280", fontSize:15, maxWidth:580, margin:"0 auto" }}>
             Designed to assist property buyers and investors with accurate calculations, timely alerts, and seamless property exploration.
