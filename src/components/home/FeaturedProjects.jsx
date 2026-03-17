@@ -10,11 +10,11 @@ export default function FeaturedProjects() {
     <section id="properties" className="section-pad" style={{ background:"#fff" }}>
       <div className="max-content">
         <motion.div initial={{ opacity:0,y:30 }} whileInView={{ opacity:1,y:0 }} viewport={{ once:true }} className="text-center mb-[52px]">
-          <h2 className="section-title" style={{ fontSize:"clamp(1.2rem,2.5vw,1.9rem)" }}>Featured Properties in Gurgaon</h2>
+          <h2 className="section-title" style={{ fontSize:"clamp(1.2rem,2.5vw,1.9rem)" }}>Featured Properties in Noida</h2>
           <div className="gold-divider" />
           <p className="font-heading font-semibold" style={{ fontSize:14, color:"#2d2d2d", marginBottom:8 }}>Discover Hand Picked Premium Properties in Prime Locations</p>
           <p style={{ color:"#6b7280", fontSize:15, maxWidth:640, margin:"0 auto" }}>
-            Explore premium <strong>Residential and Commercial Properties in Gurgaon</strong> curated by Greenaria BuildTech. All listings are RERA-verified and located in prime sectors.
+            Explore premium <strong>Residential and Commercial Properties in Noida</strong> curated by Greenaria BuildTech. All listings are RERA-verified and located in prime sectors.
           </p>
         </motion.div>
 
