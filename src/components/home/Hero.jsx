@@ -43,7 +43,7 @@ export default function Hero() {
               style={{ background:"rgba(255,255,255,.1)", backdropFilter:"blur(8px)", border:"1px solid rgba(255,255,255,.2)" }}>
               <span className="w-2 h-2 rounded-full bg-[#4caf50]" style={{ animation:"ping2 2.5s ease infinite" }} />
               <span style={{ fontFamily:"Montserrat,sans-serif", fontWeight:600, fontSize:11, color:"rgba(255,255,255,.9)", letterSpacing:".12em", textTransform:"uppercase" }}>
-                Greenaria BuildTech — Gurgaon&apos;s Trusted Partner
+                Greenaria BuildTech — Noida&apos;s Trusted Partner
               </span>
             </motion.div>
 
