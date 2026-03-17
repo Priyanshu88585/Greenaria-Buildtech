@@ -25,7 +25,7 @@ export default function Stats() {
           <h2 style={{ fontFamily:"Montserrat,sans-serif", fontWeight:900, fontSize:"clamp(1.2rem,2.5vw,1.9rem)", letterSpacing:".12em", textTransform:"uppercase", color:"#fff", marginBottom:8 }}>Why Choose Greenaria?</h2>
           <div className="w-12 h-[3px] rounded-full mx-auto mb-4" style={{ background:"linear-gradient(90deg,#2e7d32,#b8914a)" }} />
           <p style={{ color:"rgba(255,255,255,.6)", fontSize:15, maxWidth:520, margin:"0 auto" }}>
-            Your trusted real estate consultant in Gurgaon with proven market expertise delivering transparent services.
+            Your trusted real estate consultant in Noidawith proven market expertise delivering transparent services.
           </p>
         </motion.div>
 
