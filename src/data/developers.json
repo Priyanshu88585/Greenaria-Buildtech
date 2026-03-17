@@ -1,6 +1,0 @@
-[
-  { "id": 1, "name": "Godrej Properties", "logo": "/images/developers/godrej.jpg",  "projects": 12 },
-  { "id": 2, "name": "Tata Housing",      "logo": "/images/developers/tata.jpg",    "projects": 8  },
-  { "id": 3, "name": "ATS Homekraft",     "logo": "/images/developers/ats.jpg",     "projects": 10 },
-  { "id": 4, "name": "Eldeco Group",      "logo": "/images/developers/eldeco.jpg",  "projects": 6  }
-]
