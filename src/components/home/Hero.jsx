@@ -4,9 +4,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import SearchBar from "./SearchBar";
 
 const slides = [
-  { bg:"https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&q=90", title:"Best Real Estate Developer\nin Delhi NCR & Dubai",     sub:"Buy, Sell & Invest in Gurgaon Properties with Trusted Real Estate Consultants" },
-  { bg:"https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600&q=90", title:"Premium Eco-Luxury Homes\nin Gurgaon",              sub:"Explore RERA-verified Properties with Exclusive Builder Partnerships" },
-  { bg:"https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600&q=90", title:"Your Trusted Property\nPartner in Gurgaon",         sub:"8,000+ Successful Transactions · 10+ Years Experience · 100% RERA Compliant" },
+  { bg:"https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&q=90", title:"Best Real Estate Developer\nin Delhi NCR & Noida",     sub:"Buy, Sell & Invest in Noida Properties with Trusted Real Estate Consultants" },
+  { bg:"https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600&q=90", title:"Premium Eco-Luxury Homes\nin Noida",              sub:"Explore RERA-verified Properties with Exclusive Builder Partnerships" },
+  { bg:"https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600&q=90", title:"Your Trusted Property\nPartner in Noida",         sub:"8,000+ Successful Transactions · 10+ Years Experience · 100% RERA Compliant" },
 ];
 
 export default function Hero() {
