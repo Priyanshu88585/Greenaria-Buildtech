@@ -15,10 +15,10 @@ export default function Services() {
     <section id="services" className="section-pad" style={{ background:"#f5faf5" }}>
       <div className="max-content">
         <motion.div initial={{ opacity:0,y:30 }} whileInView={{ opacity:1,y:0 }} viewport={{ once:true }} className="text-center mb-[52px]">
-          <h2 className="section-title" style={{ fontSize:"clamp(1.2rem,2.5vw,1.85rem)", lineHeight:1.2 }}>Real Estate Consultancy<br/>Services in Gurgaon</h2>
+          <h2 className="section-title" style={{ fontSize:"clamp(1.2rem,2.5vw,1.85rem)", lineHeight:1.2 }}>Real Estate Consultancy<br/>Services in Noida</h2>
           <div className="gold-divider" />
           <p style={{ color:"#6b7280", fontSize:15, maxWidth:540, margin:"0 auto" }}>
-            As experienced property consultants in Gurgaon, we provide end-to-end real estate solutions from search to possession.
+            As experienced property consultants in Noida, we provide end-to-end real estate solutions from search to possession.
           </p>
         </motion.div>
 
