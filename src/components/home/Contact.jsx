@@ -18,7 +18,7 @@ export default function Contact() {
               Ready To Find Your<br/>Dream Property?
             </h2>
             <p className="mb-8" style={{ fontSize:15, color:"#6b7280", lineHeight:1.72 }}>
-              Looking for a trusted <strong>property consultant in Gurgaon</strong>? Get in touch with Greenaria BuildTech for personalised real estate advisory.
+              Looking for a trusted <strong>property consultant in Noida</strong>? Get in touch with Greenaria BuildTech for personalised real estate advisory.
             </p>
             {contactMeta.map(m => (
               <div key={m.label} className="flex items-start gap-4 mb-6">
