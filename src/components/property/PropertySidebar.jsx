@@ -19,8 +19,8 @@ export default function PropertySidebar({ property }) {
         <p className="font-heading font-black text-2xl mb-1" style={{ color: property.priceValue ? "#2e7d32" : "#b8914a" }}>{property.price}</p>
         <p className="text-gray-500 text-sm mb-4">{property.area} · {property.possession}</p>
         <div className="space-y-2">
-          <a href="tel:+917400230074" className="btn-primary w-full justify-center">📞 Call Now</a>
-          <a href="https://wa.me/917400230074" className="w-full flex items-center justify-center gap-2 py-3 rounded-xl font-heading font-bold text-sm tracking-widest uppercase text-white transition-all hover:-translate-y-0.5"
+          <a href="tel:+918218035989" className="btn-primary w-full justify-center">📞 Call Now</a>
+          <a href="https://wa.me/918218035989" className="w-full flex items-center justify-center gap-2 py-3 rounded-xl font-heading font-bold text-sm tracking-widest uppercase text-white transition-all hover:-translate-y-0.5"
             style={{ background:"#25d366", boxShadow:"0 4px 14px rgba(37,211,102,.35)" }}>
             WhatsApp
           </a>
