@@ -236,18 +236,9 @@ greenaria-buildtech/
 │   │   ├── testimonials.json             ✅ 4 testimonials
 │   │   └── partners.json                 ✅ 8 builder partners
 │   │
-│   │
 │   ├── styles/
 │   │   ├── globals.css                   ✅ Full CSS (animations, badges, forms, navbar, cards)
-│   │   ├── utilities.css                 ← included in globals.css
-│   │   ├── layout/                       ← included in globals.css
-│   │   ├── home/                         ← included in globals.css
-│   │   ├── property/                     ← included in globals.css
-│   │   ├── filters/                      ← included in globals.css
-│   │   ├── forms/                        ← included in globals.css
-│   │   ├── blog/                         ← included in globals.css
-│   │   └── pages/                        ← included in globals.css
-│   │
+│   │   └── utilities.css                 ← included in globals.css
 │   │
 │   ├── hooks/
 │   │   ├── useProperties.js              ✅ Filter/fetch properties hook
